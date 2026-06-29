@@ -1,6 +1,6 @@
 # 🏦 Homework 1: Banking Transactions API
 
-> **Student Name**: Vlad Kee
+> **Student Name**: Vlad Radchenko
 > **GitHub**: [@Vladkee](https://github.com/Vladkee)
 > **Date Submitted**: 2026-06-28
 > **AI Tools Used**: Claude CLI (Sonnet 4.6), Claude Desktop (Opus 4.8)
