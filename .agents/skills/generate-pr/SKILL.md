@@ -32,6 +32,18 @@ Read the following files to understand what was built:
 Check `homework-N/docs/screenshots/` for available screenshots.
 If missing, remind the user: "⚠️ You need at least 2 screenshots in `docs/screenshots/` before submitting the PR."
 
+**Review each screenshot to identify content:**
+- Use `view_image` tool to examine each screenshot
+- Identify what each shows: coverage reports, Swagger UI, API responses, test results, etc.
+- **Exclude** AI chat conversation screenshots from the PR description
+- Include only screenshots that demonstrate the working application
+
+**Common screenshot types to include:**
+- Test coverage reports (showing % coverage)
+- Swagger UI or API documentation
+- API responses/demo results
+- Application running/started confirmation
+
 **Screenshot URL Format:**
 For GitHub PR descriptions, use full GitHub raw URLs (not relative paths):
 ```
@@ -40,8 +52,8 @@ https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-N-submission/ho
 
 **Example:**
 ```markdown
-### Coverage Report
-![Coverage Report](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181249.png)
+### Test Coverage Report (89.1%)
+![Coverage Report](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20185346.png)
 ```
 
 **Important:** URL-encode spaces as `%20` in filenames.
