@@ -97,19 +97,31 @@ Before delivering the PR description, verify:
 - [ ] `homework-N/AI-CONVERSATION.md` is up to date and linked
 - [ ] `AI-SUMMARY.md` updated with high-level homework summary
 
-### Step 6 — Branch and PR Instructions
-**Branch Name:** `homework-N-submission`
+### Step 6 — Create PR Description File and Update PR
 
-**PR Target:** 
-- **Base repository:** `Vladkee/gen-ai-course`
-- **Base branch:** `main`
-- **Compare branch:** `homework-N-submission`
+**Save PR description to file:**
+Create `homework-N/PR-DESCRIPTION.md` with the generated content for version control and reference.
 
-**GitHub PR Creation:**
-After pushing the branch, create the PR at:
+**If PR already exists (user created it manually):**
+```bash
+gh pr edit <PR_NUMBER> --body-file homework-N/PR-DESCRIPTION.md
+```
+
+**If PR doesn't exist yet:**
+```bash
+gh pr create --base main --head homework-N-submission --title "Homework N: [Title] ([Tech Stack])" --body-file homework-N/PR-DESCRIPTION.md
+```
+
+**Set default repository first (one-time):**
+```bash
+gh repo set-default Vladkee/gen-ai-course
+```
+
+**GitHub Web Interface (alternative):**
+After pushing the branch, create/edit the PR at:
 `https://github.com/Vladkee/gen-ai-course/compare/main...homework-N-submission`
 
-Or use the GitHub CLI:
-```bash
-gh pr create --base main --head homework-N-submission --title "Homework N: [Title]" --body "[paste PR description]"
-```
+Or view/edit existing PR:
+`https://github.com/Vladkee/gen-ai-course/pull/<NUMBER>`
+
+### Step 7 — Final Verification
