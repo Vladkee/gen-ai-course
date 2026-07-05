@@ -109,29 +109,11 @@ cd demo
 
 ## Screenshots
 
-### Coverage Report (89.1%)
-![Coverage Report](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181249.png)
+### Test Coverage Report (89.1%)
+![Coverage Report](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20185346.png)
 
-### API Running (Swagger UI)
-![Swagger UI](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181314.png)
-
-### Sample Ticket Creation
-![Create Ticket](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181330.png)
-
-### Auto-Classification in Action
-![Auto-Classify](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181550.png)
-
-### Bulk Import (CSV)
-![CSV Import](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181605.png)
-
-### Advanced Filtering
-![Filtering](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20182457.png)
-
-### Test Results (All 73 Passing)
-![Test Results](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20182516.png)
-
-### Live API Demo
-![API Demo](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20183203.png)
+### Swagger UI (API Endpoints)
+![Swagger UI](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20190804.png)
 
 ---
 
@@ -145,7 +127,7 @@ cd demo
 - ✅ HOWTORUN.md with copy-paste ready commands
 - ✅ Demo scripts (PowerShell + REST Client)
 - ✅ Sample data files (CSV/JSON/XML)
-- ✅ 18 screenshots included
+- ✅ 2 screenshots included (test coverage + Swagger UI)
 - ✅ AI-CONVERSATION.md session log complete
 
 ---
