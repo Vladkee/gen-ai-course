@@ -53,7 +53,7 @@ None — agent system didn't exist yet. Created retrospectively during meta sess
 | **Branch** | `homework-2-submission` |
 | **Submitted** | 2026-07-05 |
 | **Tech Stack** | ASP.NET Core 8, ConcurrentDictionary, xUnit + FluentAssertions, Coverlet |
-| **PR** | [Link pending - create at https://github.com/Vladkee/gen-ai-course/pull/new/homework-2-submission] |
+| **PR** | [#2](https://github.com/Vladkee/gen-ai-course/pull/2) |
 | **Session Log** | [homework-2/AI-CONVERSATION.md](homework-2/AI-CONVERSATION.md) |
 
 **What Was Built**  
