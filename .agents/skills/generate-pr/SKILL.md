@@ -32,6 +32,20 @@ Read the following files to understand what was built:
 Check `homework-N/docs/screenshots/` for available screenshots.
 If missing, remind the user: "⚠️ You need at least 2 screenshots in `docs/screenshots/` before submitting the PR."
 
+**Screenshot URL Format:**
+For GitHub PR descriptions, use full GitHub raw URLs (not relative paths):
+```
+https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-N-submission/homework-N/docs/screenshots/filename.png
+```
+
+**Example:**
+```markdown
+### Coverage Report
+![Coverage Report](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181249.png)
+```
+
+**Important:** URL-encode spaces as `%20` in filenames.
+
 ### Step 3 — Generate PR Description
 Use the template from [assets/pr-template.md](./assets/pr-template.md) filled with actual values.
 

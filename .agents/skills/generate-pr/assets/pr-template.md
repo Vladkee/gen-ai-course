@@ -70,10 +70,14 @@ See [HOWTORUN.md](HOWTORUN.md) for full steps.
 ## Screenshots
 
 ### API Running
-![API Started](docs/screenshots/api-started.png)
+![API Started](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-N-submission/homework-N/docs/screenshots/api-started.png)
 
 ### Sample Requests / Responses
-![Sample Requests](docs/screenshots/sample-requests.png)
+![Sample Requests](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-N-submission/homework-N/docs/screenshots/sample-requests.png)
 
 ### [Additional Screenshot Title]
-![Description](docs/screenshots/additional.png)
+![Description](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-N-submission/homework-N/docs/screenshots/additional.png)
+
+<!-- Note: Use GitHub raw URLs with branch name and full path -->
+<!-- Format: https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-N-submission/homework-N/docs/screenshots/filename.png -->
+<!-- URL-encode spaces as %20 in filenames -->
