@@ -110,28 +110,28 @@ cd demo
 ## Screenshots
 
 ### Coverage Report (89.1%)
-![Coverage Report](docs/screenshots/Screenshot%202026-07-05%20181249.png)
+![Coverage Report](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181249.png)
 
 ### API Running (Swagger UI)
-![Swagger UI](docs/screenshots/Screenshot%202026-07-05%20181314.png)
+![Swagger UI](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181314.png)
 
 ### Sample Ticket Creation
-![Create Ticket](docs/screenshots/Screenshot%202026-07-05%20181330.png)
+![Create Ticket](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181330.png)
 
 ### Auto-Classification in Action
-![Auto-Classify](docs/screenshots/Screenshot%202026-07-05%20181550.png)
+![Auto-Classify](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181550.png)
 
 ### Bulk Import (CSV)
-![CSV Import](docs/screenshots/Screenshot%202026-07-05%20181605.png)
+![CSV Import](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20181605.png)
 
 ### Advanced Filtering
-![Filtering](docs/screenshots/Screenshot%202026-07-05%20182457.png)
+![Filtering](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20182457.png)
 
 ### Test Results (All 73 Passing)
-![Test Results](docs/screenshots/Screenshot%202026-07-05%20182516.png)
+![Test Results](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20182516.png)
 
 ### Live API Demo
-![API Demo](docs/screenshots/Screenshot%202026-07-05%20183203.png)
+![API Demo](https://raw.githubusercontent.com/Vladkee/gen-ai-course/homework-2-submission/homework-2/docs/screenshots/Screenshot%202026-07-05%20183203.png)
 
 ---
 
