@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+  <ticket>
+    <subject>Application won't start</subject>
+    <description>Double clicking the app icon does nothing no error message</description>
+    <customer_name>Victoria Nelson</customer_name>
+    <customer_email>victoria.nelson@example.com</customer_email>
+    <priority>Critical</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Unexpected charge appeared</subject>
+    <description>See a charge I don't recognize on my statement</description>
+    <customer_name>Jack Carter</customer_name>
+    <customer_email>jack.carter@company.com</customer_email>
+    <priority>High</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Lost access to account</subject>
+    <description>Email address is no longer valid cannot receive reset link</description>
+    <customer_name>Grace Mitchell</customer_name>
+    <customer_email>grace.mitchell@test.com</customer_email>
+    <priority>Critical</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Dark theme request</subject>
+    <description>Please add dark theme option for night use</description>
+    <customer_name>Owen Perez</customer_name>
+    <customer_email>owen.perez@example.com</customer_email>
+    <priority>Low</priority>
+    <category>General</category>
+  </ticket>
+  <ticket>
+    <subject>Timeout during file upload</subject>
+    <description>Large file uploads fail with timeout error</description>
+    <customer_name>Lily Roberts</customer_name>
+    <customer_email>lily.roberts@dev.com</customer_email>
+    <priority>High</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Invoice not emailed</subject>
+    <description>Should have received monthly invoice but inbox is empty</description>
+    <customer_name>Nathan Turner</customer_name>
+    <customer_email>nathan.turner@company.com</customer_email>
+    <priority>Medium</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Email notifications too frequent</subject>
+    <description>Getting notified for every minor update want to reduce frequency</description>
+    <customer_name>Zoe Phillips</customer_name>
+    <customer_email>zoe.phillips@test.com</customer_email>
+    <priority>Low</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Search returns wrong results</subject>
+    <description>Searching for keyword X returns results for keyword Y</description>
+    <customer_name>Elijah Campbell</customer_name>
+    <customer_email>elijah.campbell@example.com</customer_email>
+    <priority>High</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Billing address cannot update</subject>
+    <description>Changed my billing address but system reverts to old one</description>
+    <customer_name>Chloe Parker</customer_name>
+    <customer_email>chloe.parker@company.com</customer_email>
+    <priority>Medium</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Account merge needed</subject>
+    <description>Have two accounts want to merge them into one</description>
+    <customer_name>Mason Evans</customer_name>
+    <customer_email>mason.evans@test.com</customer_email>
+    <priority>Medium</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Memory usage too high</subject>
+    <description>Application uses 8GB of RAM after running for an hour</description>
+    <customer_name>Aria Edwards</customer_name>
+    <customer_email>aria.edwards@example.com</customer_email>
+    <priority>Critical</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Trial period extension</subject>
+    <description>Can I get a few more days on my trial to finish evaluation</description>
+    <customer_name>Logan Collins</customer_name>
+    <customer_email>logan.collins@company.com</customer_email>
+    <priority>Low</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Privacy settings unclear</subject>
+    <description>Don't understand what each privacy setting controls</description>
+    <customer_name>Ella Stewart</customer_name>
+    <customer_email>ella.stewart@test.com</customer_email>
+    <priority>Low</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Webhook delivery failed</subject>
+    <description>Configured webhook but events are not being delivered</description>
+    <customer_name>Carter Sanchez</customer_name>
+    <customer_email>carter.sanchez@dev.com</customer_email>
+    <priority>Critical</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Coupon not applying</subject>
+    <description>Entered promotional code but discount doesn't show at checkout</description>
+    <customer_name>Scarlett Morris</customer_name>
+    <customer_email>scarlett.morris@company.com</customer_email>
+    <priority>Medium</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Username already exists</subject>
+    <description>Want to change username but desired name shows as taken</description>
+    <customer_name>Wyatt Rogers</customer_name>
+    <customer_email>wyatt.rogers@test.com</customer_email>
+    <priority>Low</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>CORS error on API</subject>
+    <description>Getting CORS error when calling API from my domain</description>
+    <customer_name>Layla Reed</customer_name>
+    <customer_email>layla.reed@dev.com</customer_email>
+    <priority>High</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Refund never received</subject>
+    <description>Was told refund processed 2 weeks ago but never received</description>
+    <customer_name>Grayson Cook</customer_name>
+    <customer_email>grayson.cook@company.com</customer_email>
+    <priority>Critical</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Change primary email</subject>
+    <description>How do I change which email is my primary account email</description>
+    <customer_name>Penelope Morgan</customer_name>
+    <customer_email>penelope.morgan@test.com</customer_email>
+    <priority>Medium</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Integration docs outdated</subject>
+    <description>Documentation shows deprecated API methods</description>
+    <customer_name>Julian Bell</customer_name>
+    <customer_email>julian.bell@dev.com</customer_email>
+    <priority>Medium</priority>
+    <category>General</category>
+  </ticket>
+  <ticket>
+    <subject>Infinite loading spinner</subject>
+    <description>Reports page shows loading spinner forever never displays data</description>
+    <customer_name>Hannah Murphy</customer_name>
+    <customer_email>hannah.murphy@example.com</customer_email>
+    <priority>High</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Annual billing discount</subject>
+    <description>Do you offer a discount for annual vs monthly billing</description>
+    <customer_name>Caleb Bailey</customer_name>
+    <customer_email>caleb.bailey@company.com</customer_email>
+    <priority>Low</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Security audit log</subject>
+    <description>Where can I view login history and security events for my account</description>
+    <customer_name>Addison Rivera</customer_name>
+    <customer_email>addison.rivera@test.com</customer_email>
+    <priority>Low</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Browser compatibility</subject>
+    <description>Site doesn't work properly in Safari shows layout issues</description>
+    <customer_name>Isaac Cooper</customer_name>
+    <customer_email>isaac.cooper@example.com</customer_email>
+    <priority>High</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Tax exemption certificate</subject>
+    <description>How do I submit tax exempt status for business account</description>
+    <customer_name>Aubrey Richardson</customer_name>
+    <customer_email>aubrey.richardson@company.com</customer_email>
+    <priority>Medium</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Deactivate account temporarily</subject>
+    <description>Want to pause my account for a few months without deleting</description>
+    <customer_name>Levi Cox</customer_name>
+    <customer_email>levi.cox@test.com</customer_email>
+    <priority>Low</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Rate limit exceeded</subject>
+    <description>API returns 429 too many requests need higher rate limit</description>
+    <customer_name>Brooklyn Howard</customer_name>
+    <customer_email>brooklyn.howard@dev.com</customer_email>
+    <priority>Critical</priority>
+    <category>Technical</category>
+  </ticket>
+  <ticket>
+    <subject>Payment declined explanation</subject>
+    <description>Why was my payment method declined when there are sufficient funds</description>
+    <customer_name>Christian Ward</customer_name>
+    <customer_email>christian.ward@company.com</customer_email>
+    <priority>High</priority>
+    <category>Billing</category>
+  </ticket>
+  <ticket>
+    <subject>Session timeout configuration</subject>
+    <description>Can I adjust how long before I'm automatically logged out</description>
+    <customer_name>Hazel Torres</customer_name>
+    <customer_email>hazel.torres@test.com</customer_email>
+    <priority>Low</priority>
+    <category>Account</category>
+  </ticket>
+  <ticket>
+    <subject>Batch import failing</subject>
+    <description>Bulk data import fails silently no error message shown</description>
+    <customer_name>Lincoln Peterson</customer_name>
+    <customer_email>lincoln.peterson@example.com</customer_email>
+    <priority>High</priority>
+    <category>Technical</category>
+  </ticket>
+</tickets>

@@ -1,0 +1,51 @@
+subject,description,customer_name,customer_email,priority,category
+Login not working,Cannot access my account after password reset,John Smith,john.smith@example.com,High,Technical
+Billing error on invoice,Charged twice for last month subscription,Sarah Johnson,sarah.j@company.com,Critical,Billing
+How to change email,Need help updating my email address,Mike Davis,mike.davis@test.com,Low,Account
+System crash on startup,Application crashes immediately when I launch it,Emily Brown,emily.brown@example.com,Critical,Technical
+Refund request,Want refund for unused subscription period,James Wilson,james.w@example.com,Medium,Billing
+Feature request,Would like dark mode option,Lisa Anderson,lisa.anderson@test.com,Low,General
+Password reset email not received,Requested password reset but no email arrived,Robert Taylor,robert.t@company.com,High,Account
+API rate limit too low,Getting 429 errors frequently need higher limit,David Martinez,david.m@dev.com,High,Technical
+Invoice missing,Did not receive invoice for last payment,Jennifer Garcia,jennifer.g@example.com,Medium,Billing
+Account deletion request,Want to permanently delete my account and data,Michael Rodriguez,michael.r@test.com,Medium,Account
+Performance issues,Dashboard loading very slowly,Jessica Lee,jessica.lee@company.com,High,Technical
+Duplicate charges,Seeing duplicate charges on my credit card,Christopher White,chris.white@example.com,Critical,Billing
+Email not verified,Verification email never arrived,Amanda Harris,amanda.h@test.com,Medium,Account
+Export feature not working,Cannot export data to CSV format,Daniel Clark,daniel.clark@example.com,High,Technical
+Subscription cancellation,How do I cancel my subscription,Mary Lewis,mary.lewis@company.com,Low,Billing
+Profile picture upload fails,Error when trying to upload new profile picture,Matthew Walker,matthew.w@test.com,Low,Account
+Connection timeout errors,Frequent timeout errors when saving data,Elizabeth Hall,elizabeth.h@example.com,Critical,Technical
+Wrong invoice amount,Invoice shows incorrect total,Thomas Allen,thomas.allen@company.com,High,Billing
+Two factor auth setup help,Need assistance setting up 2FA,Nancy Young,nancy.young@test.com,Medium,Account
+Mobile app crashes,iOS app crashes when viewing reports,Ryan Hernandez,ryan.h@example.com,Critical,Technical
+Payment method update,Cannot update credit card information,Karen King,karen.king@company.com,Medium,Billing
+Username already taken,Getting error that username is taken but I own it,Steven Wright,steven.w@test.com,Medium,Account
+Search not returning results,Search feature returns zero results for valid queries,Betty Lopez,betty.lopez@example.com,High,Technical
+Promo code not working,Discount code gives error when applied,Donald Hill,donald.hill@company.com,Medium,Billing
+Security question reset,Forgot security question answer need reset,Sandra Scott,sandra.scott@test.com,High,Account
+Slow report generation,Reports taking 5+ minutes to generate,Paul Green,paul.green@example.com,High,Technical
+Incorrect tax calculation,Sales tax calculated wrong on invoice,Laura Adams,laura.adams@company.com,High,Billing
+Email preferences not saving,Email notification settings revert to default,Mark Baker,mark.baker@test.com,Low,Account
+Data export incomplete,Exported file missing half the records,Carol Gonzalez,carol.g@example.com,Critical,Technical
+Auto-renewal disabled,Need to enable auto-renewal for subscription,Brian Nelson,brian.nelson@company.com,Low,Billing
+Language settings,How to change interface language,Michelle Carter,michelle.c@test.com,Low,General
+Integration API docs,Documentation for API integration is unclear,Kevin Mitchell,kevin.mitchell@example.com,Medium,Technical
+Refund status inquiry,Checking status of refund request from 2 weeks ago,Donna Perez,donna.perez@company.com,Medium,Billing
+Account merge request,Want to merge two accounts into one,Jason Roberts,jason.roberts@test.com,Medium,Account
+Webhook not triggering,Configured webhook not receiving events,Sharon Turner,sharon.turner@example.com,Critical,Technical
+Payment failed notification,Got payment failed email but card was charged,Timothy Phillips,timothy.p@company.com,Critical,Billing
+Password complexity requirements,What are the password requirements,Barbara Campbell,barbara.c@test.com,Low,General
+Database connection lost,Losing connection to database intermittently,Jeffrey Parker,jeffrey.parker@example.com,Critical,Technical
+Annual plan upgrade,Want to upgrade from monthly to annual plan,Deborah Evans,deborah.evans@company.com,Low,Billing
+Session timeout too short,Getting logged out too frequently,Eric Edwards,eric.edwards@test.com,Medium,Account
+Chart rendering broken,Dashboard charts showing blank,Stephanie Collins,stephanie.c@example.com,High,Technical
+Receipt not received,Need receipt for payment made last week,Raymond Stewart,raymond.s@company.com,Low,Billing
+Notification preferences,How to disable certain email notifications,Carolyn Sanchez,carolyn.sanchez@test.com,Low,Account
+File upload size limit,Cannot upload files larger than 5MB need increase,Frank Morris,frank.morris@example.com,Medium,Technical
+Billing cycle change,Want to change billing date to 1st of month,Patricia Rogers,patricia.rogers@company.com,Low,Billing
+Account locked,Account locked after failed login attempts,Gregory Reed,gregory.reed@test.com,Critical,Account
+Memory leak suspected,Application memory usage grows over time,Maria Cook,maria.cook@example.com,High,Technical
+Credit card declined,Why was my payment method declined,Charles Morgan,charles.morgan@company.com,High,Billing
+Avatar not displaying,Profile avatar shows broken image,Ruth Bell,ruth.bell@test.com,Low,Account
+Batch operation timeout,Bulk update operation times out with 100+ items,Joseph Murphy,joseph.murphy@example.com,High,Technical

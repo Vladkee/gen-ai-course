@@ -1,0 +1,146 @@
+### Homework 2: Ticketing API Demo Requests
+### Base URL: http://localhost:5002
+### Use with VS Code REST Client extension
+
+@baseUrl = http://localhost:5002/api
+
+### 1. Create a new ticket (manual classification)
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "subject": "Login page not loading",
+  "description": "When I try to access the login page, I get a blank screen",
+  "customerName": "John Doe",
+  "customerEmail": "john.doe@example.com",
+  "priority": "High",
+  "category": "Technical"
+}
+
+### 2. Create a new ticket with auto-classification
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "subject": "URGENT: Payment failed need refund immediately",
+  "description": "My credit card was charged but the payment shows as failed. Need refund ASAP",
+  "customerName": "Jane Smith",
+  "customerEmail": "jane.smith@company.com",
+  "autoClassify": true
+}
+
+### 3. Get all tickets
+GET {{baseUrl}}/tickets
+
+### 4. Get tickets by status
+GET {{baseUrl}}/tickets?status=Open
+
+### 5. Get tickets by priority
+GET {{baseUrl}}/tickets?priority=Critical
+
+### 6. Get tickets by category
+GET {{baseUrl}}/tickets?category=Billing
+
+### 7. Get tickets with multiple filters
+GET {{baseUrl}}/tickets?status=Open&priority=High&category=Technical
+
+### 8. Get a specific ticket by ID (change ID to match a created ticket)
+GET {{baseUrl}}/tickets/1
+
+### 9. Update a ticket
+PUT {{baseUrl}}/tickets/1
+Content-Type: application/json
+
+{
+  "status": "InProgress",
+  "assignedTo": "Support Agent 1"
+}
+
+### 10. Auto-classify an existing ticket
+POST {{baseUrl}}/tickets/1/auto-classify
+
+### 11. Mark ticket as resolved
+PUT {{baseUrl}}/tickets/1
+Content-Type: application/json
+
+{
+  "status": "Resolved"
+}
+
+### 12. Delete a ticket
+DELETE {{baseUrl}}/tickets/1
+
+### 13. Import tickets from CSV
+POST {{baseUrl}}/tickets/import
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="sample_tickets.csv"
+Content-Type: text/csv
+
+< ./sample_tickets.csv
+------WebKitFormBoundary--
+
+### 14. Import tickets from JSON
+POST {{baseUrl}}/tickets/import
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="sample_tickets.json"
+Content-Type: application/json
+
+< ./sample_tickets.json
+------WebKitFormBoundary--
+
+### 15. Import tickets from XML
+POST {{baseUrl}}/tickets/import
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="sample_tickets.xml"
+Content-Type: application/xml
+
+< ./sample_tickets.xml
+------WebKitFormBoundary--
+
+### 16. Create ticket with validation error (invalid email)
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "subject": "Test ticket",
+  "description": "Testing validation",
+  "customerName": "Test User",
+  "customerEmail": "not-an-email"
+}
+
+### 17. Create ticket with validation error (subject too long)
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "subject": "This subject is intentionally made extremely long to exceed the 200 character limit and trigger a validation error. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+  "description": "Testing validation",
+  "customerName": "Test User",
+  "customerEmail": "test@example.com"
+}
+
+### 18. Get tickets filtered by date range (last 7 days)
+@sevenDaysAgo = {{$datetime 'iso8601' -7 d}}
+GET {{baseUrl}}/tickets?fromDate={{sevenDaysAgo}}
+
+### 19. Get tickets by customer email
+GET {{baseUrl}}/tickets?customerEmail=john.doe@example.com
+
+### 20. Create multiple tickets for filtering demo
+POST {{baseUrl}}/tickets
+Content-Type: application/json
+
+{
+  "subject": "Critical bug in production",
+  "description": "Entire system is down affecting all users",
+  "customerName": "Admin",
+  "customerEmail": "admin@example.com",
+  "priority": "Critical",
+  "category": "Technical"
+}
