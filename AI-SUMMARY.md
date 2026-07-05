@@ -49,12 +49,32 @@ None — agent system didn't exist yet. Created retrospectively during meta sess
 
 | Field | Value |
 |-------|-------|
-| **Status** | 🔲 Not started |
-| **Branch** | — |
-| **Tech Stack** | TBD (ASP.NET Core 8 preferred) |
+| **Status** | ✅ Submitted |
+| **Branch** | `homework-2-submission` |
+| **Submitted** | 2026-07-05 |
+| **Tech Stack** | ASP.NET Core 8, ConcurrentDictionary, xUnit + FluentAssertions, Coverlet |
+| **PR** | [Link pending - create at https://github.com/Vladkee/gen-ai-course/pull/new/homework-2-submission] |
 | **Session Log** | [homework-2/AI-CONVERSATION.md](homework-2/AI-CONVERSATION.md) |
 
-<!-- To be filled in after completion -->
+**What Was Built**  
+REST API with 7 endpoints including multi-format bulk import (CSV/JSON/XML with row-level error tracking), keyword-based auto-classification with confidence scoring, and advanced filtering. 73 comprehensive tests achieving 89.1% line coverage (exceeds 85% requirement). 4 documentation files with 3 Mermaid diagrams.
+
+**AI Tools Used**  
+| Phase | Tool | Model |
+|-------|------|-------|
+| Full Implementation & Verification | GitHub Copilot (VS Code) | Claude Sonnet 4.5 (High-Max) |
+
+**Skills Created**  
+None — used existing agent system (read-tasks, log-ai-session, generate-pr, learn-from-history).
+
+**Key Conclusions**  
+- Controller layer critical for coverage: was 0%, added 17 tests → pushed total from 74.5% to 89.1%
+- PowerShell script debugging: API expects PascalCase properties, script had camelCase → 400 errors
+- ConcurrentDictionary simpler than EF InMemory for homework scope despite more verbose LINQ filtering
+- Applied HW1 lessons: field-name alignment (PascalCase), screenshot discipline (18 screenshots captured)
+
+**Blockers / Issues**  
+None significant — all challenges (coverage gap, PowerShell syntax errors) resolved during session.
 
 ---
 

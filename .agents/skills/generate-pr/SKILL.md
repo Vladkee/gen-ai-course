@@ -35,7 +35,57 @@ If missing, remind the user: "⚠️ You need at least 2 screenshots in `docs/sc
 ### Step 3 — Generate PR Description
 Use the template from [assets/pr-template.md](./assets/pr-template.md) filled with actual values.
 
-### Step 4 — Pre-Submission Checklist
+### Step 4 — Update AI-SUMMARY.md
+Before generating the PR description, update the root `AI-SUMMARY.md` file with high-level info from `homework-N/AI-CONVERSATION.md`.
+
+**Extract only the most important information:**
+- Status → ✅ Complete / Submitted
+- Tech stack used
+- What was built (2-3 sentences max)
+- AI tools and models used (table from session log)
+- Skills created (if any new skills were added during this homework)
+- Key conclusions (1-3 bullet points: what worked well, what was learned)
+- Blockers/Issues (only significant problems, not minor fixes)
+
+**Do NOT copy:**
+- Full implementation details
+- Complete challenge lists
+- Step-by-step accomplishments
+
+**Example HW2 Summary Entry:**
+```markdown
+### HW2 — Customer Support Ticketing
+
+| Field | Value |
+|-------|-------|
+| **Status** | ✅ Submitted |
+| **Branch** | `homework-2-submission` |
+| **Submitted** | 2026-07-05 |
+| **Tech Stack** | ASP.NET Core 8, ConcurrentDictionary, xUnit + FluentAssertions |
+| **PR** | [#N](link-once-created) |
+| **Session Log** | [homework-2/AI-CONVERSATION.md](homework-2/AI-CONVERSATION.md) |
+
+**What Was Built**  
+REST API with 7 endpoints including multi-format bulk import (CSV/JSON/XML), keyword-based auto-classification with confidence scoring, and advanced filtering. 73 tests, 89.1% coverage.
+
+**AI Tools Used**  
+| Phase | Tool | Model |
+|-------|------|-------|
+| Full Implementation | GitHub Copilot (VS Code) | Claude Sonnet 4.5 (High-Max) |
+
+**Skills Created**  
+None — used existing agent system.
+
+**Key Conclusions**  
+- Controller layer critical for coverage (was 0%, added 17 tests → 89.1% total)
+- PowerShell script debugging: PascalCase vs camelCase property names caused API 400 errors
+- ConcurrentDictionary simpler than EF InMemory for homework scope
+
+**Blockers / Issues**  
+None significant — all challenges resolved during session.
+```
+
+### Step 5 — Pre-Submission Checklist
 Before delivering the PR description, verify:
 
 - [ ] Title: `Homework N: [Name] ([Tech Stack])`
@@ -45,6 +95,21 @@ Before delivering the PR description, verify:
 - [ ] How to Run commands are copy-paste ready
 - [ ] Screenshot paths point to existing files in `docs/screenshots/`
 - [ ] `homework-N/AI-CONVERSATION.md` is up to date and linked
+- [ ] `AI-SUMMARY.md` updated with high-level homework summary
 
-### Step 5 — Branch Name Suggestion
-Suggest a branch name following: `homework-N-submission`
+### Step 6 — Branch and PR Instructions
+**Branch Name:** `homework-N-submission`
+
+**PR Target:** 
+- **Base repository:** `Vladkee/gen-ai-course`
+- **Base branch:** `main`
+- **Compare branch:** `homework-N-submission`
+
+**GitHub PR Creation:**
+After pushing the branch, create the PR at:
+`https://github.com/Vladkee/gen-ai-course/compare/main...homework-N-submission`
+
+Or use the GitHub CLI:
+```bash
+gh pr create --base main --head homework-N-submission --title "Homework N: [Title]" --body "[paste PR description]"
+```
