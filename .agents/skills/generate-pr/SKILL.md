@@ -125,8 +125,10 @@ Before delivering the PR description, verify:
 
 ### Step 6 — Create PR Description File and Update PR
 
-**Save PR description to file:**
-Create `homework-N/PR-DESCRIPTION.md` with the generated content for version control and reference.
+**Save PR description to a temporary file (do NOT commit it):**
+Write the generated content to a scratch location outside the repo (or delete it after use).
+The PR body itself is the single source of truth — a committed `PR-DESCRIPTION.md`
+duplicates it and drifts (user decision, HW3 session 2026-07-13).
 
 **If PR already exists (user created it manually):**
 ```bash
