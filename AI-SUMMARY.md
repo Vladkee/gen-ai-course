@@ -90,7 +90,7 @@ None significant — all challenges (coverage gap, PowerShell syntax errors) res
 | **Session Log** | [homework-3/AI-CONVERSATION.md](homework-3/AI-CONVERSATION.md) |
 
 **What Was Built**  
-Specification package for a virtual card lifecycle feature (create, freeze/unfreeze, spending limits, transaction visibility) in a regulated FinTech setting: layered `specification.md` (6 mid-level objectives, 16-row edge-case table, assumed-and-justified performance targets, 24 low-level tasks with acceptance criteria, traceability table), `agents.md` domain rules, `.cursor/rules/` editor rules, and README with rationale and best-practices mapping.
+Specification package for a virtual card lifecycle feature (create, freeze/unfreeze, spending limits, transaction visibility) in a regulated FinTech setting: layered `specification.md` (6 mid-level objectives, 16-row edge-case table, assumed-and-justified performance targets, 24 low-level tasks with acceptance criteria, traceability table), `agents.md` domain rules, `CLAUDE.md` editor/AI rules (Claude Code project-rules format, matching the tool used), and README with rationale and best-practices mapping.
 
 **AI Tools Used**  
 | Phase | Tool | Model |
@@ -106,7 +106,7 @@ None new — but 4 fixes to the existing system committed first (status-table dr
 - Performance targets read better derived from user intent (freeze = panic action → propagation SLO) than as round numbers
 
 **Blockers / Issues**  
-- 🟡 **Branching from main dropped the agent system**: `.agents/` lives only on the unmerged HW2 branch — resolved by stacking `homework-3-submission` on `homework-2-submission`; PR diff shrinks once HW2 merges.
+- 🟡 **Branching from main dropped the agent system**: `.agents/` lived only on the then-unmerged HW2 branch — resolved by stacking `homework-3-submission` on `homework-2-submission`. ✅ Resolved fully on 2026-07-13: PRs #1/#2 merged, branch rebased onto `main` and force-pushed — PR #3 now shows HW3 changes only.
 
 ---
 

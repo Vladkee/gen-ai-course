@@ -1,6 +1,6 @@
-# Cursor Rules — Virtual Card Service (FinTech-sensitive defaults)
+# CLAUDE.md — Virtual Card Service (FinTech-sensitive defaults)
 
-Applies to all AI-assisted edits in this project. Companion to [../../agents.md](../../agents.md) (domain rules) and [../../specification.md](../../specification.md) (requirements). These rules steer *how* the AI works; agents.md defines *what* it must respect.
+Project rules for Claude Code (and any AI editor) working in this codebase. Companion to [agents.md](agents.md) (domain rules) and [specification.md](specification.md) (requirements). These rules steer *how* the AI works; agents.md defines *what* it must respect.
 
 ## Naming & Patterns
 

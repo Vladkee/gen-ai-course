@@ -21,7 +21,7 @@ See [../AI-SUMMARY.md](../AI-SUMMARY.md) for the cross-homework summary.
 
 - Reviewed the entire `.agents/` system built in the HW2/meta sessions; identified and fixed 4 issues (commit 1): status-table drift across three files (made `AI-SUMMARY.md` the single source of truth), missing docs-only workflow variant (HW3 has no runnable code), truncated Step 7 in the `generate-pr` skill, confusing `[x] REQUIRED` marker in `read-tasks`
 - Wrote `specification.md`: 6 mid-level objectives, 16-row edge-case/failure-mode table, assumed-and-justified performance targets, 24 low-level tasks with acceptance criteria, and a traceability summary table
-- Wrote `agents.md` (domain rules: PAN handling, transactional audit, idempotency-by-default) and `.cursor/rules/fintech-virtual-cards.md` (naming, FinTech-sensitive defaults, anti-patterns)
+- Wrote `agents.md` (domain rules: PAN handling, transactional audit, idempotency-by-default) and `CLAUDE.md` (naming, FinTech-sensitive defaults, anti-patterns — initially created as `.cursor/rules/`, converted to Claude Code project rules since this homework was actually done with Claude Code)
 - Wrote `README.md` with rationale for layering choices, performance-target derivation, and a 12-row industry-best-practices mapping with file/section references
 
 ### Key Decisions
@@ -30,7 +30,8 @@ See [../AI-SUMMARY.md](../AI-SUMMARY.md) for the cross-homework summary.
 - **Auditability and ops controls promoted to mid-level objectives** (MLO-5/6) rather than implementation notes — compliance has stakeholders, so it is a feature
 - **Compliance concerns split across layers deliberately** (objectives / implementation notes / per-task acceptance criteria) and the split defended in README — this placement question is graded explicitly per TASKS.md
 - **Performance targets derived from user intent** (freeze = panic action → propagation SLO is the real promise) and labeled as assumed, per TASKS.md requirement
-- **Branch based on `homework-2-submission`, not `main`** — the `.agents/` system only exists on the unmerged HW2 branch; PR diff will shrink to HW3-only once HW2 merges
+- **Branch based on `homework-2-submission`, not `main`** — the `.agents/` system only existed on the then-unmerged HW2 branch. After PRs #1 and #2 merged (2026-07-13), the branch was rebased onto `main` and force-pushed, so PR #3 shows HW3 changes only
+- **Editor rules as `CLAUDE.md`** — the assignment allows copilot/`.claude`/`.cursor` formats; chose Claude Code project rules to match the tool actually used for this homework
 
 ### Challenges
 

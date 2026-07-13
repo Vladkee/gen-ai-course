@@ -2,7 +2,7 @@
 
 Implemented Homework 3 as a **specification package** for a **virtual card lifecycle** feature (create, freeze/unfreeze, spending limits, transaction visibility) in a regulated FinTech environment. Documents only — no code, per assignment. The centerpiece `specification.md` is a layered spec designed to be executable by an engineering team or AI agent without guessing.
 
-> Note: this branch is stacked on `homework-2-submission` (the `.agents/` system lives there); once PR #2 merges, this diff reduces to HW3 files + agent-system fixes only.
+> Note: originally stacked on `homework-2-submission`; after PRs #1/#2 merged, the branch was rebased onto `main` — this diff is HW3 files + agent-system fixes only.
 
 ## Deliverables
 
@@ -10,7 +10,7 @@ Implemented Homework 3 as a **specification package** for a **virtual card lifec
 |------|---------|--------|
 | `homework-3/specification.md` | Layered spec: high-level objective → 6 mid-level objectives → non-functional/policy targets → implementation notes → beginning/ending context → 24 low-level tasks | ✅ Required |
 | `homework-3/agents.md` | AI agent guidelines: tech stack, banking domain rules, testing expectations, edge-case treatment | ✅ Required |
-| `homework-3/.cursor/rules/fintech-virtual-cards.md` | Editor/AI rules: naming, patterns, FinTech-sensitive defaults, anti-patterns | ✅ Required |
+| `homework-3/CLAUDE.md` | Editor/AI rules (Claude Code project rules): naming, patterns, FinTech-sensitive defaults, anti-patterns | ✅ Required |
 | `homework-3/README.md` | Student info, rationale (incl. performance-target derivation), industry best practices with section references | ✅ Required |
 
 ## What Was Built
@@ -44,7 +44,7 @@ No run steps — documents only. Suggested reading order:
 
 1. `homework-3/README.md` — rationale and best-practices map
 2. `homework-3/specification.md` — §2 objectives → §7 edge cases → §9 tasks → §10 traceability
-3. `homework-3/agents.md` and `.cursor/rules/fintech-virtual-cards.md`
+3. `homework-3/agents.md` and `CLAUDE.md`
 
 ## Screenshots
 

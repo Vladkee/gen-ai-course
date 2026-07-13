@@ -2,7 +2,7 @@
 
 **Student**: Vlad Radchenko ([@Vladkee](https://github.com/Vladkee))
 
-**Task summary**: A complete specification package for a **virtual card lifecycle** feature (create, freeze/unfreeze, spending limits, transaction visibility) in a regulated FinTech environment. Documents only — no code. Deliverables: [specification.md](specification.md) (layered spec), [agents.md](agents.md) (AI agent guidelines), [.cursor/rules/fintech-virtual-cards.md](.cursor/rules/fintech-virtual-cards.md) (editor/AI rules), and this README.
+**Task summary**: A complete specification package for a **virtual card lifecycle** feature (create, freeze/unfreeze, spending limits, transaction visibility) in a regulated FinTech environment. Documents only — no code. Deliverables: [specification.md](specification.md) (layered spec), [agents.md](agents.md) (AI agent guidelines), [CLAUDE.md](CLAUDE.md) (editor/AI rules for Claude Code), and this README.
 
 ---
 
@@ -39,13 +39,13 @@ Verification is scaled to blast radius: money-adjacent invariants get the strong
 |----------|------------------|
 | PCI DSS scope minimization (no PAN/CVV storage; tokenization; PCI-scoped reveal flow) | spec § 3.1, § 4 note 1, T8; agents.md § 2.1 |
 | Immutable, transactional audit trail (append-only table + outbox pattern) | spec § 3.2, T1, T4; agents.md § 2.2 |
-| Idempotency keys on all mutations (Stripe-style) | spec § 4 note 4, T3; cursor rules "FinTech-sensitive defaults" |
-| Integer minor units for money (ISO 4217) | spec § 4 note 1; agents.md § 1; cursor rules naming (`amountMinor`) |
+| Idempotency keys on all mutations (Stripe-style) | spec § 4 note 4, T3; CLAUDE.md "FinTech-sensitive defaults" |
+| Integer minor units for money (ISO 4217) | spec § 4 note 1; agents.md § 1; CLAUDE.md naming (`amountMinor`) |
 | Explicit finite state machine for card status | spec § 6 diagram, T2; agents.md § 2.4 |
 | Freeze affects new authorizations only (card-network standard) | spec § 4 note 6, E1; agents.md § 2.6 |
 | Reconciliation against the processor as source-of-truth divergence control | spec § 3.5, E3, T15, T19 |
 | Four-eyes / reason codes for privileged (ops) actions | spec E9, T17; agents.md § 2.5 |
-| No-existence-leak authorization (`404` for foreign resources) | spec T7; cursor rules "What to avoid" |
+| No-existence-leak authorization (`404` for foreign resources) | spec T7; CLAUDE.md "What to avoid" |
 | SLOs as testable requirements, not prose (propagation SLO test, load-test task) | spec § 3.4, T10, T22 |
 | RFC 7807 problem details with a stable error-code catalogue | spec § 4 note 5, T5 |
 | Compliance sign-off as an explicit deliverable | spec § 8.3, T24 |
@@ -57,7 +57,7 @@ homework-3/
 ├── TASKS.md                          # Assignment (read-only)
 ├── specification.md                  # Layered spec — the graded artifact
 ├── agents.md                         # AI agent guidelines for the domain
-├── .cursor/rules/fintech-virtual-cards.md   # Editor/AI rules
+├── CLAUDE.md                         # Editor/AI rules (Claude Code project rules)
 ├── AI-CONVERSATION.md                # Session log
 ├── docs/screenshots/                 # Rendered spec + diagram screenshots
 └── README.md                         # This file
