@@ -1,0 +1,38 @@
+Summary
+  Generated on: 7/5/2026 - 6:45:28 PM
+  Coverage date: 7/5/2026 - 6:44:19 PM - 7/5/2026 - 6:45:27 PM
+  Parser: MultiReport (2x Cobertura)
+  Assemblies: 1
+  Classes: 16
+  Files: 10
+  Line coverage: 89.1%
+  Covered lines: 663
+  Uncovered lines: 81
+  Coverable lines: 744
+  Total lines: 1020
+  Branch coverage: 78.7% (252 of 320)
+  Covered branches: 252
+  Total branches: 320
+  Method coverage: 98.9% (90 of 91)
+  Full method coverage: 84.6% (77 of 91)
+  Covered methods: 90
+  Fully covered methods: 77
+  Total methods: 91
+
+TicketingApi                                                                                                                                   89.1%
+  Program                                                                                                                                         0%
+  System.Text.RegularExpressions.Generated                                                                                                     83.3%
+  System.Text.RegularExpressions.Generated.<RegexGenerator_g>F49A5EB2099FD2A2B457CFF5B6B75F9F1C110BF989E64FB68F2A1AB622ED6DA9C__EmailRegex_0   82.5%
+  TicketingApi.Controllers.ImportController                                                                                                    80.7%
+  TicketingApi.Controllers.TicketsController                                                                                                   97.4%
+  TicketingApi.Models.ClassificationResult                                                                                                      100%
+  TicketingApi.Models.CreateTicketRequest                                                                                                       100%
+  TicketingApi.Models.ImportError                                                                                                               100%
+  TicketingApi.Models.ImportSummary                                                                                                             100%
+  TicketingApi.Models.Ticket                                                                                                                    100%
+  TicketingApi.Models.TicketFilter                                                                                                              100%
+  TicketingApi.Models.UpdateTicketRequest                                                                                                       100%
+  TicketingApi.Services.ClassificationService                                                                                                   100%
+  TicketingApi.Services.ImportService                                                                                                          90.5%
+  TicketingApi.Services.TicketService                                                                                                          94.5%
+  TicketingApi.Validation.TicketValidator                                                                                                      93.5%

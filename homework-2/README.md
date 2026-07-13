@@ -1,18 +1,36 @@
-# 🏦 Homework 1: Banking Transactions API
+# Homework 2: Customer Support Ticketing API
 
-> **Student Name**: [Your Name]
-> **Date Submitted**: [Date]
-> **AI Tools Used**: [List tools, e.g., Claude Code, GitHub Copilot]
+**Student**: Vlad Radchenko ([@Vladkee](https://github.com/Vladkee))
 
----
+## Overview
 
-## 📋 Project Overview
+REST API for customer support ticket management with multi-format import (CSV/JSON/XML), auto-classification engine, and comprehensive test coverage.
 
-[Briefly describe your implementation - what you built and the key features]
+## Tech Stack
 
+- **Framework**: ASP.NET Core 8 (.NET 8)
+- **Storage**: In-memory (ConcurrentDictionary)
+- **Testing**: xUnit + FluentAssertions + Coverlet
+- **Import Libraries**: CsvHelper, System.Text.Json, System.Xml.Linq
 
-<div align="center">
+## Features
 
-*This project was completed as part of the AI-Assisted Development course.*
+- ✅ Full CRUD operations for support tickets
+- ✅ Multi-format bulk import (CSV, JSON, XML)
+- ✅ Auto-classification with confidence scoring
+- ✅ Advanced filtering (status, priority, category, date range)
+- ✅ >85% test coverage with 56 tests
 
-</div>
+## Quick Start
+
+See [HOWTORUN.md](HOWTORUN.md) for detailed setup and demo instructions.
+
+## Documentation
+
+- [API Reference](API_REFERENCE.md) — All endpoints with request/response examples
+- [Architecture](ARCHITECTURE.md) — System design and data flow diagrams
+- [Testing Guide](TESTING_GUIDE.md) — Test strategy and coverage report
+
+## AI Session Log
+
+See [AI-CONVERSATION.md](AI-CONVERSATION.md) for all AI-assisted development sessions.

@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "Cannot login after update",
+    "description": "After the latest app update I cannot log in with my credentials",
+    "customer_name": "Alex Turner",
+    "customer_email": "alex.turner@example.com",
+    "priority": "Critical",
+    "category": "Technical"
+  },
+  {
+    "subject": "Wrong amount charged",
+    "description": "Was charged $99 instead of $49 for monthly subscription",
+    "customer_name": "Olivia Martin",
+    "customer_email": "olivia.martin@company.com",
+    "priority": "High",
+    "category": "Billing"
+  },
+  {
+    "subject": "How to delete account",
+    "description": "I want to permanently delete my account and all associated data",
+    "customer_name": "Noah Jackson",
+    "customer_email": "noah.jackson@test.com",
+    "priority": "Medium",
+    "category": "Account"
+  },
+  {
+    "subject": "Feature suggestion",
+    "description": "It would be great to have keyboard shortcuts for common actions",
+    "customer_name": "Emma Thompson",
+    "customer_email": "emma.thompson@example.com",
+    "priority": "Low",
+    "category": "General"
+  },
+  {
+    "subject": "Server error 500",
+    "description": "Getting HTTP 500 error when trying to save my work",
+    "customer_name": "Liam Anderson",
+    "customer_email": "liam.anderson@dev.com",
+    "priority": "Critical",
+    "category": "Technical"
+  },
+  {
+    "subject": "Invoice PDF won't download",
+    "description": "The download invoice button does nothing when clicked",
+    "customer_name": "Sophia White",
+    "customer_email": "sophia.white@company.com",
+    "priority": "Medium",
+    "category": "Billing"
+  },
+  {
+    "subject": "Email change confirmation",
+    "description": "Changed my email but didn't receive confirmation message",
+    "customer_name": "William Harris",
+    "customer_email": "william.harris@test.com",
+    "priority": "High",
+    "category": "Account"
+  },
+  {
+    "subject": "Mobile app freezes",
+    "description": "Android app freezes when switching between tabs",
+    "customer_name": "Ava Robinson",
+    "customer_email": "ava.robinson@example.com",
+    "priority": "High",
+    "category": "Technical"
+  },
+  {
+    "subject": "Refund processing time",
+    "description": "How long does it take to process a refund request",
+    "customer_name": "James Clark",
+    "customer_email": "james.clark@company.com",
+    "priority": "Low",
+    "category": "Billing"
+  },
+  {
+    "subject": "Cannot change password",
+    "description": "Password change form gives validation error for all passwords",
+    "customer_name": "Isabella Lewis",
+    "customer_email": "isabella.lewis@test.com",
+    "priority": "High",
+    "category": "Account"
+  },
+  {
+    "subject": "Dashboard not loading",
+    "description": "Main dashboard shows loading spinner indefinitely",
+    "customer_name": "Benjamin Walker",
+    "customer_email": "benjamin.walker@example.com",
+    "priority": "Critical",
+    "category": "Technical"
+  },
+  {
+    "subject": "Subscription already canceled",
+    "description": "Received invoice but I canceled subscription last month",
+    "customer_name": "Mia Hall",
+    "customer_email": "mia.hall@company.com",
+    "priority": "Critical",
+    "category": "Billing"
+  },
+  {
+    "subject": "Profile visibility settings",
+    "description": "How do I make my profile private",
+    "customer_name": "Lucas Allen",
+    "customer_email": "lucas.allen@test.com",
+    "priority": "Low",
+    "category": "Account"
+  },
+  {
+    "subject": "API documentation missing",
+    "description": "Cannot find documentation for the v2 API endpoints",
+    "customer_name": "Charlotte Young",
+    "customer_email": "charlotte.young@dev.com",
+    "priority": "Medium",
+    "category": "General"
+  },
+  {
+    "subject": "Data export bug",
+    "description": "Exported CSV file has garbled characters for special symbols",
+    "customer_name": "Henry King",
+    "customer_email": "henry.king@example.com",
+    "priority": "High",
+    "category": "Technical"
+  },
+  {
+    "subject": "Payment method expired",
+    "description": "Need to update expired credit card but form not working",
+    "customer_name": "Amelia Wright",
+    "customer_email": "amelia.wright@company.com",
+    "priority": "High",
+    "category": "Billing"
+  },
+  {
+    "subject": "Two-factor authentication issue",
+    "description": "Lost phone with 2FA app cannot log in",
+    "customer_name": "Alexander Scott",
+    "customer_email": "alexander.scott@test.com",
+    "priority": "Critical",
+    "category": "Account"
+  },
+  {
+    "subject": "Slow page load times",
+    "description": "Pages take 10-15 seconds to load",
+    "customer_name": "Evelyn Green",
+    "customer_email": "evelyn.green@example.com",
+    "priority": "High",
+    "category": "Technical"
+  },
+  {
+    "subject": "Discount code expired",
+    "description": "My referral discount code shows as expired",
+    "customer_name": "Sebastian Adams",
+    "customer_email": "sebastian.adams@company.com",
+    "priority": "Low",
+    "category": "Billing"
+  },
+  {
+    "subject": "Username contains typo",
+    "description": "Made typo in username during signup want to change it",
+    "customer_name": "Harper Baker",
+    "customer_email": "harper.baker@test.com",
+    "priority": "Low",
+    "category": "Account"
+  }
+]
