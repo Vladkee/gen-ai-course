@@ -112,3 +112,20 @@ homework-N/
 - [ ] `homework-N/AI-CONVERSATION.md` has a new entry for this session
 - [ ] `AI-SUMMARY.md` (root) has a row for this homework
 - [ ] At least 2 screenshots captured in `docs/screenshots/`
+
+## Docs-Only Homework Variant (HW3 and similar)
+
+When a homework produces **only documents** (no runnable code), Phases 3–4 and the
+folder conventions adapt as follows:
+
+- **No `demo/`, `src/`, or `HOWTORUN.md`** — deliverables are the Markdown files named in `TASKS.md`
+- **Phase 3 (Implement)** = write the documents; layering and traceability replace code structure
+- **Phase 4 (Verify)** = self-review against `TASKS.md`: every required section present, every
+  low-level task traces to a mid-level objective, edge cases / verification / performance
+  targets are integrated (not a single vague bullet), all internal links resolve
+- **Screenshots** (still required — instructor rule): capture the **rendered** documents —
+  e.g. the spec preview, Mermaid diagrams, document structure/outline view
+- **Quality gates**: replace the `start.ps1` / endpoint-table gates with:
+  - [ ] All deliverable files from `TASKS.md` exist and are complete
+  - [ ] Every low-level task references the mid-level objective it serves
+  - [ ] Edge cases, verification, and performance sections are substantive

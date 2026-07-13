@@ -68,9 +68,11 @@ Follow this sequence for **every homework session**, without skipping steps:
 
 ## Homework Quick Reference
 
+Status lives in `AI-SUMMARY.md` (root) — the single source of truth. This table covers themes and constraints only.
+
 | HW | Theme | Key Constraint |
 |----|-------|---------------|
-| 1 | Banking Transactions API | ✅ Done — ASP.NET Core 8 |
+| 1 | Banking Transactions API | ASP.NET Core 8 |
 | 2 | Customer Support Ticketing | CSV/JSON/XML import + auto-classification |
 | 3 | Specification Design | Docs only — no code |
 | 4 | 4-Agent Pipeline | Single-command execution required |

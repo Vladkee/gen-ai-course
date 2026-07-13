@@ -27,8 +27,8 @@ Identify and categorize:
 
 | Category | Markers | Action |
 |----------|---------|--------|
-| Required tasks | ⭐, "Required", bold | Must implement — mark with `[x] REQUIRED` |
-| Optional tasks | 🌟, "Choose at least 1", "Optional" | Implement at least minimum — mark `[ ] OPTIONAL` |
+| Required tasks | ⭐, "Required", bold | Must implement — tag with `REQUIRED` (checkbox stays `[ ]` until done) |
+| Optional tasks | 🌟, "Choose at least 1", "Optional" | Implement at least minimum — tag with `OPTIONAL` |
 | Constraints | Bold requirements, "must", "only" | Extract as constraints list |
 | Tech stack hints | "Choose one", "Node.js/Express", etc. | Note alongside stack preferences |
 | Acceptance criteria | "Success criteria:", code format specs | Add to each task |

@@ -151,3 +151,11 @@ Or view/edit existing PR:
 `https://github.com/Vladkee/gen-ai-course/pull/<NUMBER>`
 
 ### Step 7 — Final Verification
+
+After creating or updating the PR:
+
+1. Open the PR page (`gh pr view --web` or the URL from Step 6) and confirm:
+   - All inline screenshot images actually render (raw URLs resolve — branch must be pushed first)
+   - The `AI-CONVERSATION.md` link points to the correct branch and file
+2. Confirm reviewers: `@Alexey-Popov` requested and Copilot code review enabled
+3. Report the PR URL and any items that still need manual attention
