@@ -49,7 +49,7 @@ None — agent system didn't exist yet. Created retrospectively during meta sess
 
 | Field | Value |
 |-------|-------|
-| **Status** | ✅ Submitted |
+| **Status** | ✅ Merged |
 | **Branch** | `homework-2-submission` |
 | **Submitted** | 2026-07-05 |
 | **Tech Stack** | ASP.NET Core 8, ConcurrentDictionary, xUnit + FluentAssertions, Coverlet |
@@ -82,7 +82,7 @@ None significant — all challenges (coverage gap, PowerShell syntax errors) res
 
 | Field | Value |
 |-------|-------|
-| **Status** | ✅ Submitted |
+| **Status** | ✅ Merged |
 | **Branch** | `homework-3-submission` |
 | **Submitted** | 2026-07-13 |
 | **Tech Stack** | N/A (documents only — Markdown + Mermaid) |
@@ -114,12 +114,32 @@ None new — but 4 fixes to the existing system committed first (status-table dr
 
 | Field | Value |
 |-------|-------|
-| **Status** | 🔲 Not started |
-| **Branch** | — |
-| **Tech Stack** | TBD |
+| **Status** | ✅ Submitted |
+| **Branch** | `homework-4-submission` |
+| **Submitted** | 2026-07-18 |
+| **Tech Stack** | Node.js 24 (zero dependencies — `node:http`, `node:test`), Claude Code headless (`claude -p`) pipeline runner |
+| **PR** | [#4](https://github.com/Vladkee/gen-ai-course/pull/4) |
 | **Session Log** | [homework-4/AI-CONVERSATION.md](homework-4/AI-CONVERSATION.md) |
 
-<!-- To be filled in after completion -->
+**What Was Built**  
+4-agent bug-fixing pipeline (Research Verifier → Bug Fixer → Security Verifier → Unit Test Generator, plus inline Researcher/Planner stages) with explicit model-per-agent selection, runnable via a single `npm run pipeline` command. Target: SpendLite, a zero-dependency expense API seeded with 2 bugs + 1 security issue — all found, fixed, security-reviewed, and regression-tested with a full artifact trail (`context/bugs/001/`, incl. pre-fix `before/` snapshots). 12 FIRST-compliant generated tests; final suite 18/18.
+
+**AI Tools Used**  
+| Phase | Tool | Model |
+|-------|------|-------|
+| Full implementation & pipeline execution | Claude Code (CLI) | Claude Fable 5 |
+| Pipeline stage models (in agent frontmatter) | Claude Code headless | Opus 4.8 (research/security verify), Sonnet 5 (fix, test gen) |
+
+**Skills Created**  
+`research-quality-measurement` (A/B/C/F levels; C/F stop the pipeline) and `unit-tests-FIRST` — both scoped inside `homework-4/skills/` (per-homework agent system, root `.agents/` untouched).
+
+**Key Conclusions**  
+- Verification stages earn their keep: the research verifier caught a genuinely stale file:line reference by re-reading source — graded the research B, corrected it inline, pipeline proceeded
+- Model-per-stage split works: Opus-class where work is adversarial/cross-referencing, Sonnet-class where the plan already contains exact before/after code
+- Preserving pre-fix sources as a first-class artifact (`before/`) lets generated regression tests be *proven* to fail pre-fix — stronger evidence than assertions
+
+**Blockers / Issues**  
+None significant. Noted for honesty: pipeline artifacts were produced by the session model executing each agent role; the `npm run pipeline` runner reproduces the flow with real per-stage agent invocations (reset procedure in HOWTORUN.md).
 
 ---
 
@@ -163,6 +183,8 @@ Tracks skills and instructions created over time, and which homework motivated t
 | 2026-07-05 | Instructions | `homework-workflow` | Meta setup |
 | 2026-07-05 | Instructions | `tech-stack` | Meta setup |
 | 2026-07-05 | Instructions | `pr-standards` | HW1 instructor feedback |
+| 2026-07-18 | Agents (×4, HW4-scoped) | `research-verifier`, `bug-fixer`, `security-verifier`, `unit-test-generator` | HW4 pipeline |
+| 2026-07-18 | Skills (×2, HW4-scoped) | `research-quality-measurement`, `unit-tests-FIRST` | HW4 Tasks 1.2 / 4.2 |
 
 <!-- New rows added by learn-from-history skill after each retrospective -->
 
