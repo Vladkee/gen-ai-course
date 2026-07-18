@@ -51,14 +51,8 @@ Override when homework explicitly requires another stack (e.g. Python for HW5 Fa
 
 ## Homework Status
 
-| HW | Title | Status | Branch |
-|----|-------|--------|--------|
-| 1 | Banking Transactions API | ✅ Merged | `homework-1-submission` |
-| 2 | Customer Support Ticketing | 🔲 Not started | — |
-| 3 | Specification Design | 🔲 Not started | — |
-| 4 | 4-Agent Pipeline | 🔲 Not started | — |
-| 5 | MCP Servers | 🔲 Not started | — |
-| 6 | Final Capstone | 🔲 Not started | — |
+Single source of truth: [`AI-SUMMARY.md`](../AI-SUMMARY.md) (root). Check its per-homework
+Status field before starting work — do not duplicate status tables in other files.
 
 ---
 

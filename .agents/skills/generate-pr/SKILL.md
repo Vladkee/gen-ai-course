@@ -125,8 +125,10 @@ Before delivering the PR description, verify:
 
 ### Step 6 — Create PR Description File and Update PR
 
-**Save PR description to file:**
-Create `homework-N/PR-DESCRIPTION.md` with the generated content for version control and reference.
+**Save PR description to a temporary file (do NOT commit it):**
+Write the generated content to a scratch location outside the repo (or delete it after use).
+The PR body itself is the single source of truth — a committed `PR-DESCRIPTION.md`
+duplicates it and drifts (user decision, HW3 session 2026-07-13).
 
 **If PR already exists (user created it manually):**
 ```bash
@@ -151,3 +153,11 @@ Or view/edit existing PR:
 `https://github.com/Vladkee/gen-ai-course/pull/<NUMBER>`
 
 ### Step 7 — Final Verification
+
+After creating or updating the PR:
+
+1. Open the PR page (`gh pr view --web` or the URL from Step 6) and confirm:
+   - All inline screenshot images actually render (raw URLs resolve — branch must be pushed first)
+   - The `AI-CONVERSATION.md` link points to the correct branch and file
+2. Confirm reviewers: `@Alexey-Popov` requested and Copilot code review enabled
+3. Report the PR URL and any items that still need manual attention
