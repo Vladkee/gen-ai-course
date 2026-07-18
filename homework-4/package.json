@@ -1,0 +1,13 @@
+{
+  "name": "spendlite",
+  "version": "1.0.0",
+  "description": "SpendLite — tiny expense-tracker API used as the target application for the HW4 4-agent pipeline",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test \"tests/**/*.test.js\"",
+    "pipeline": "node scripts/run-pipeline.mjs"
+  },
+  "author": "Vlad Radchenko (@Vladkee)",
+  "license": "MIT"
+}
